@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Basics</title>
+</head>
+
+<body>
+    <h1>HTML Basics - this is h1 tag</h1>
+    <h2>Different header tags - this is h2 tag</h2>
+    <h3>test h3</h3>
+    <h4>test h4</h4>
+    <h5>test h5</h5>
+    <h6>test h6</h6>
+    <h7>test h7 - does not exist</h7>
+    <p>paragraph text</p>
+
+    <h2>Image tag</h2>
+    <img src="img/laura-jones.jpg" alt="Headshot of Laura Jones" height="50" width="50" />
+
+    <h3>base64 image</h3>
+    <img src="data:image/png;base64, iVBORw0KGgoAAAANSUhEUgAAAAUA
+    AAAFCAYAAACNbyblAAAAHElEQVQI12P4//8/w38GIAXDIBKE0DHxgljNBAAO
+        9TXL0Y4OHwAAAABJRU5ErkJggg==" alt="Red dot" />
+
+    <h3>Image map, with clickable regions. Each region is a hyperlink</h3>
+    <img src="img/workplace.jpeg" alt="Workplace image with clickable regions" usemap="#workmap" width="400" height="379">
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="img/mac.jpeg">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="img/cellphone.jpeg">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="img/coffeehouse2.jpeg">
+    </map>
+
+    <h2>Anchor tag</h2>
+    <p>You can reach Michael at:</p>
+
+    <ul>
+        <li><a href="https://example.com">Website</a></li>
+        <li><a href="mailto:m.bluth@example.com">Email</a></li>
+        <li><a href="tel:+123456789">Phone</a></li>
+    </ul>
+
+    <p>Link that opens in a new tab (image is linked by nesting it inside anchor tag)</p>
+
+    <a target="_blank" href="https://www.wikipedia.org">
+        <img alt="(opens in new tab)" src="img/Wikipedia-logo-v2.png" height="50" width="50">
+    </a>
+
+    <h2>Unordered list tag</h2>
+    <ul type="square">
+        <li>Milk</li>
+        <li>Cheese
+            <ul type="disc">
+                <li>Blue cheese</li>
+                <li>Feta</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <h2>Ordered list tag</h2>
+    <ol>
+        <li>Fee</li>
+            <ol reversed="true" start="7">
+                <li>f1</li>
+                <li>f2</li>
+                <li>f3</li>
+            </ol>
+        <li>Fi</li>
+        <ol type="i" start="6">
+            <li>b1</li>
+            <li>b2</li>
+            <li>b3</li>
+        </ol>
+        <li>Fo</li>
+        <li>Fum</li>
+      </ol>
+
+</body>
+
+</html>
