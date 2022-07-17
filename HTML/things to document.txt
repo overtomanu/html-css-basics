@@ -1,0 +1,29 @@
+document following tags
+------------
+head
+body
+style
+nav
+article and header
+aside
+code
+
+list out short description of each tag
+https://way2tutorial.com/html/tag/index.php
+https://www.scaler.com/topics/html/html-tags-list/
+
+document following css properties
+font-size
+font-family
+font-style
+font-weight
+color
+background-color
+text-transform
+text-align
+line-height
+
+applying css rule to multiple elements
+css descendant selector eg: footer p {font-size: 16px}
+    - generally dont prefer descendant selector as it encodes html structure in css. hence its not very robust
+    - instead select elements by class or id and apply style
