@@ -27,3 +27,5 @@ applying css rule to multiple elements
 css descendant selector eg: footer p {font-size: 16px}
     - generally dont prefer descendant selector as it encodes html structure in css. hence its not very robust
     - instead select elements by class or id and apply style
+css id selector
+css class selector
