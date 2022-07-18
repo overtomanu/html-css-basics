@@ -29,3 +29,12 @@ css descendant selector eg: footer p {font-size: 16px}
     - instead select elements by class or id and apply style
 css id selector
 css class selector
+css colors
+    - two way to specify
+    - shorthand notation when all colors are having identical pairs in hexadecimal
+    - rgba which specifies transparency
+    - when all 3 colors are same we get grey color
+        - there are 256 possible grey colors
+
+border property
+    -   border-left, border-top etc 
