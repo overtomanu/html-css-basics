@@ -7,6 +7,8 @@
   - [HTML Document structure](#html-document-structure)
   - [A note on semantic HTML](#a-note-on-semantic-html)
     - [List of semantic HTML tags](#list-of-semantic-html-tags)
+  - [HTML emmet shortcut snippets](#html-emmet-shortcut-snippets)
+    - [HTML emmet notes](#html-emmet-notes)
   - [Anchor tag](#anchor-tag)
     - [href](#href)
     - [target](#target)
@@ -92,6 +94,34 @@ The benefit of writing semantic HTML stems from what should be the driving goal 
 |`<sub>`|Subscript|
 |`<sup>`|Superscript|
 |`<var>`|Variable or user defined text|
+
+## HTML emmet shortcut snippets
+
+Notes from [Write quicker HTML5 and CSS 3; productivity hacks with emmet](https://courses.learncodeonline.in/learn/home/emmet-course)
+
+|Shortcut|Description
+|:-|:-
+|`!`|create HTML5 skeleton
+|`nav>ul>li`|create nested tags
+|`div+p+bq`|create tags one after another (using `+`)
+|`div+div>p>span>em^^bq`|create sibling tag for a nested tag (using `^`)
+|`div#id373`|create html tag with id (using `#`)
+|`p.class1.class2#id456`|create html tag with given classses (using `.`)
+|`ul>li*6`|Repeat tag multiple times using `*`
+|`ul>li.item$6`|create tags with numbered classes (using `$`)
+|`h$[title=item$]{This is a header $}*4`|create tags with attributes (using `[]`) and with content (using `{}`)
+|`ul>li.item$$$`|create tags with classes numbered with 3 digits like 001,002 etc
+|`ul>li.item$@-*6`|create tags with classes numbered in reverse (`-` indicates reverse)
+|`ul>li.item$@2*6`|create tags with classes number starting from 2 (not reversed)
+|`[a=value1 b=value2]`|create div tag with custom attrbute a set to value1 (if no tag is specified then `div` is considered as the default value)
+|`p>{click me}+a{something}+{anything...}`|creating child content for paragraph which also has a hyperlink
+|`p*8>lorem`|create 8 paragraphs with lorem ipsum sample text
+|`ul.class1>lorem4.item5`|generate list with 5 items containing 4 worded sample text
+
+### HTML emmet notes
+
+- `>` denotes creating child/nested tag
+- `^` denotes going one level up the parent HTML tag
 
 ## Anchor tag
 
