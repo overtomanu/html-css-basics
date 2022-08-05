@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Basics</title>
+    <style>
+        .styleTagCssDemo { color: red; }
+    </style>
 </head>
 
 <body>
@@ -87,6 +90,13 @@
         <dt>Milk</dt>
         <dd>White cold drink</dd>
     </dl>
+
+    <h2>Style tag</h2>
+    <p class="styleTagCssDemo">This text has css style from head applied to it (sets text color to red)</p>
+
+    <p class="styleTagCssDemo" style="color: chartreuse;">Another alternative is to use inline style by specifying style in the style attribute of the HTML element.</p>
+    <p>Style specified here overrides style coming from the head. 
+    <p>The above text has style attribute applied to it (text color greenish)</p>
 
 </body>
 

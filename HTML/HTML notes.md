@@ -23,7 +23,8 @@
     - [type](#type)
   - [Unordered list tag](#unordered-list-tag)
     - [type](#type-1)
-    - [Definition / Description list tag](#definition--description-list-tag)
+  - [Definition / Description list tag](#definition--description-list-tag)
+  - [CSS Style tag](#css-style-tag)
 
 ## What is HTML
 HTML is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.
@@ -200,8 +201,13 @@ This attribute sets the bullet style for the list. It can have following values
 - disc
 - square
 
-### Definition / Description list tag
+## Definition / Description list tag
 
 The `<dl>` HTML element represents a description list. The element encloses a list of groups of terms (specified using the `<dt>` element) and descriptions (provided by `<dd>` elements). 
 
 We can have multiple terms with single description and single term with multiple descriptions. Useful for displaying key value pairs.
+
+## CSS Style tag
+
+The `<style>` which is nested inside head tag contains style information for a document, or part of a document.  It contains CSS, which is applied to the contents of the document containing the `<style>` element.
+

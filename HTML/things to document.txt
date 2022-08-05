@@ -1,8 +1,6 @@
 document following tags
 ------------
-head
-body
-style
+style tag media query attribute
 nav
 article and header
 aside
